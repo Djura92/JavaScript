@@ -33,7 +33,7 @@ let highScore = 0;
 const displayMessage = function (message) {
   document.querySelector('.message').textContent = message;
 };
-const displaySecretNumber(number){
+const displaySecretNumber = function (number){
   document.querySelector('.number').textContent = number;
 
 }
